@@ -18,7 +18,7 @@ public class AnimalMain {
         System.out.println("Animal animal3/fish/:");
         animal3.eat();
         System.out.println("Animal3 class: "+animal3.getClass().getName());
-        //animal3.hunt(); //ez nem jó mert az Animal class-ban nincs Hunt() method
+        //animal3.hunt(); //ez nem jó mert az Animal class-ban nincs hunt() method
         fish.hunt();
 
         System.out.println();
