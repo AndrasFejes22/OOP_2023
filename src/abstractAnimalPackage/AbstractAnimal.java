@@ -1,16 +1,20 @@
-package animalPackage;
+package abstractAnimalPackage;
 
-public class Animal {
+public abstract class AbstractAnimal {
 
     private String name;
     private int age;
     private boolean isDomestic;
 
-    public Animal(String name, int age, boolean isDomestic) {
+    public AbstractAnimal(String name, int age, boolean isDomestic) {
         this.name = name;
         this.age = age;
         this.isDomestic = isDomestic;
     }
+    public AbstractAnimal() {
+
+    }
+
 
     public void eat(){
         System.out.println("Animal is eating...");
@@ -20,9 +24,7 @@ public class Animal {
         System.out.println("Animal is sleeping...");
     }
 
-    public void move(){
-        System.out.println("Animal is moving..");
-    }
+    public abstract void move();
 
     public String getName() {
         return name;

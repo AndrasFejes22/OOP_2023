@@ -17,4 +17,6 @@ public class Fish extends Animal{
     public void hunt(){
         System.out.println("Fish is hunting...");
     }
+
+
 }
